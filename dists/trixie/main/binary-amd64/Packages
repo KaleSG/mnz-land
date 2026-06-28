@@ -1,0 +1,21 @@
+Package: nmrs-gui
+Version: 1.6.0
+Architecture: amd64
+Depends: pkg-config,
+  libglib2.0-dev,
+  libgirepository1.0-dev,
+  libgdk-pixbuf-xlib-2.0-dev,
+  libpango1.0-dev,
+  libcairo2-dev,
+  libgtk-4-dev,
+  libadwaita-1-dev
+Maintainer: Kale Suarez <jeremiahsuarez06@gmail.com>
+Priority: optional
+Section: utils
+Filename: pool/main/n/nmrs-gui/nmrs-gui_1.6.0_amd64.deb
+Size: 1071040
+SHA256: 6cb2e45497252049fe7d8cf6e778d503f22b2f9771c8da6e908597200e8ef3cf
+SHA1: c2f430bfeb520bc8b1cfade8114efb4ffcacf666
+MD5sum: e61120a7ac2098b7df9716ba86aa33e1
+Description: A GTK4 GUI for managing NetworkManager connections on Linux. Built with Rust and libadwaita.
+

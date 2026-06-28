@@ -1,0 +1,38 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Origin: KaleSG
+Label: mnz-land
+Codename: trixie
+Date: Sat, 27 Jun 2026 23:29:27 UTC
+Architectures: amd64
+Components: main
+Description: my private repo for mnz-land
+MD5Sum:
+ 8be6386866438c813735a61317b25399 644 main/binary-amd64/Packages
+ ea1a01edc233de755a2258e84872eb4f 446 main/binary-amd64/Packages.gz
+ c4b658877f8c0bf2a52481a264357617 109 main/binary-amd64/Release
+SHA1:
+ 0cac9d535565e173eaa627ea2a24df94cd999cac 644 main/binary-amd64/Packages
+ d017a420878630aa82975f084ac0924d94dbf5e6 446 main/binary-amd64/Packages.gz
+ c739a9ac4d608a41ee3f992fcc1c61f389ddb89f 109 main/binary-amd64/Release
+SHA256:
+ fd54270427e19dcd57f7853c920e3d4ba7da7e3a76efc53ee65c3e12261aae86 644 main/binary-amd64/Packages
+ c39061c51600a59a4bd75fa4a2ecdee23b0dde993bd3137c8d2ba02b3d72f51b 446 main/binary-amd64/Packages.gz
+ 2f7caae30b4b1140d9d2985899af6d8667beac360c7ff753ca6805309bcf7fa9 109 main/binary-amd64/Release
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEEKuANIDwkRcuVsDNpIPt18gve2t4FAmpAXOQACgkQIPt18gve
+2t5rhw/+NilA1l+hJ3cNs7s/ukrPW4UjvaacIfv6J6m2Kgda5gfWiK9uoV6Gekue
+qeJZkYCp9FjVRJpD6GZA+KHFumyRd/MAQgvjB2YHnzVDllWoSFW/QT3l1ww0i7a0
+FVnG4QBmJ2+aEV2KeHo7BXoNE5us7Nl8cSDpQ4r89ew/z9JxVekFVNIFT/2xJxWy
+eON0pwTSopI1zAF+xTaD88jWqZwPKDByA1+a1CsamPvhBknrBACFyjrUf17cXOmE
+nYf6f1EUNs0BHs6zIc2aY7oYdaDc/uXzLjlPtI3AO3mi9h8k8Xi/9cB5FCCmui3G
+ifkfrEztF9i+7jURv4XvL3FbpF8a4PeRnoFOM5qXvk5Z7UrY+/Hhh/PqFFjLze9T
+oN58SgOss0i3W59/1ScNAH/BsJiqN4NnPAf5/CwIeJYsUyI6ZulBKhiookB71+wu
+vTywoKMDAvNyeNA7GBWCAV8bRoZT3cMxtYKSl0ZYWSOHQZDYx16yQDDb6fL2s94z
+5TbvPhkWe5Dm87MhsW81Me95SnvJdOuV+ey3ewm6fU04uHcxo6WKAcHpaxC0sq8y
++ZRmoVp8e/S9GaZ1uEXJYyKztrNp4/5bSO2DgQC7nr6sP6DhFoUjvpMI6pa3d5/D
+5EY0Kjc5iJu6IzJy7Xeue+6WqOJ4xaemXJFWTKmeutLPzoa4jvo=
+=VCxC
+-----END PGP SIGNATURE-----

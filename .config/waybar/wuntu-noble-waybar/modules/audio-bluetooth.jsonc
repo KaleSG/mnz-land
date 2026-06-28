@@ -1,0 +1,10 @@
+{
+    "group/audio-bluetooth": {
+        "orientation": "horizontal",
+        "modules": [
+            "pulseaudio",
+            "bluetooth"
+        ],
+        "drawer": {}
+    }
+}

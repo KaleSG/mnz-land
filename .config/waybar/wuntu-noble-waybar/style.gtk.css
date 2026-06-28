@@ -1,0 +1,58 @@
+@import "./colors.gtk.css";
+
+* {
+  font-family: "JetBrainsMono Nerd Font Propo", sans-serif;
+  font-size: 0.95rem;
+}
+
+window#waybar {
+  background-color: alpha(@waybar-bg, 0.6);
+}
+
+/* Label Module Base Styles */
+#clock,
+#bluetooth,
+#network,
+#pulseaudio,
+#battery,
+#backlight,
+#custom-power, 
+#custom-notification
+{
+  background-color: alpha(@surface-bg, 0.3);
+  padding: 0px 12px;
+  margin: 2px 2px;
+  border-radius: 15px;
+  color: @foreground;
+  transition:
+    background-color 200ms,
+    color 200ms;
+}
+
+#clock:hover,
+#bluetooth:hover,
+#network:hover,
+#pulseaudio:hover,
+#battery:hover,
+#backlight:hover,
+#custom-power:hover,
+#custom-notification:hover {
+  background-color: alpha(@surface-bg-muted, 0.6);
+}
+
+.modules-right {
+  background-color: alpha(@surface-bg-muted, 0.3);
+  padding: 2px 4px;
+  margin: 3px 2px;
+  border-radius: 80px;
+}
+
+/* Module Imports Override style.css */
+@import "./module-styling/audio.gtk.css";
+@import "./module-styling/battery.gtk.css";
+@import "./module-styling/bluetooth.gtk.css";
+@import "./module-styling/clock.gtk.css";
+@import "./module-styling/network.gtk.css";
+@import "./module-styling/taskbar.gtk.css";
+@import "./module-styling/power_menu.gtk.css";
+@import "./module-styling/notification.gtk.css";

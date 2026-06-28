@@ -1,0 +1,37 @@
+@define-color waybar-bg #161616;
+@define-color surface-bg-muted #242424;
+@define-color surface-bg #2b2b2b;
+@define-color surface-hover-bg #363636;
+@define-color surface-active-bg #3d3d3d;
+@define-color surface-highlight-bg #d0d0d0;
+
+@define-color surface-red-bg #3d1a1a;
+
+@define-color foreground #ffffff;
+@define-color foreground-muted #bbbbbb;
+
+@define-color indicator-green #c2ffad;
+@define-color indicator-yellow #ffffad;
+@define-color indicator-orange #ffb545;
+@define-color indicator-orange-dark #3c290c;
+@define-color indicator-red #ffadad;
+@define-color indicator-blue #add6ff;
+@define-color indicator-high-green #96ff73;
+
+/* Bluetooth Indicator Colors */
+@define-color bluetooth-on @indicator-blue;
+@define-color bluetooth-off @fg-1;
+@define-color bluetooth-connected @indicator-blue;
+
+/* Network Indictor Colors */
+@define-color network-disconnected @indicator-red;
+@define-color network-connected @indicator-green;
+
+/* Battery Module Colors */
+@define-color base-battery @indicator-green;
+@define-color battery-half @indicator-yellow;
+@define-color battery-warning @indicator-orange;
+@define-color battery-critical @indicator-red;
+@define-color battery-charging @indicator-high-green;
+
+@define-color battery-critical-bg @surface-red-bg;

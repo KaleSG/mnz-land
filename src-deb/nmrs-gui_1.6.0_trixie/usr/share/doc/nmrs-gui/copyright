@@ -1,0 +1,5 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: nmrs-gui
+Source: https://github.com/networkmanager-rs/nmrs-gui
+Copyright: Akrm Al-Hakimi <alhakimiakrmj@gmail.com>
+License: MIT
