@@ -18,13 +18,13 @@ mkdir -p ~/.config
 git clone  --filter=blob:none --no-checkout https://github.com/KaleSG/mnz-land.git
 cd mnz-land
 git init sparse-checkout init --cone
-git space-checkout set themeing
+git sparse-checkout set themeing
 
 git checkout
 
 cp -r ./themeing/.config/* ~/.config/
 cp -r ./themeing/themes/* ~/.local/share/themes/
-cp ./themeing/fonts/* /usr/local/share/fonts/
+sudo cp ./themeing/fonts/* /usr/local/share/fonts/
 
 cd ..
 rm -rf mnz-land
