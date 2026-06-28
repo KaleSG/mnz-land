@@ -1,5 +1,5 @@
 Package: mnz-land
-Version: 1.0.0
+Version: 1.0.1
 Architecture: amd64
 Depends: rofi,
  waybar,
@@ -30,16 +30,30 @@ Depends: rofi,
  slurp,
  git,
  gh,
- nmrs-gui
+ nmrs-gui,
+ mnz-land-dark-theme
 Maintainer: Kale Suarez <jeremiahsuarez06@gmail.com>
 Priority: optional
 Section: utils
-Filename: pool/main/m/mnz-land/mnz-land_1.0.0_amd64.deb
-Size: 924
-SHA256: c0cf74cfa99bb52245982c95c6046ab1043c5fb780f0e3d23363337b35a486e1
-SHA1: b3dba3150c3672b379daf1a16d25b0ddc82418eb
-MD5sum: a7c46d7de810ec21c0063d6f3fe479e2
+Filename: pool/main/m/mnz-land/mnz-land_1.0.1_amd64.deb
+Size: 940
+SHA256: 0297e13b7b9b83ccf6d0419426188330945774114f984d3030243f67c8d0708c
+SHA1: 51eb014864722d5379fae13b3d09ddc80f1c3aac
+MD5sum: 99f7a1874cabbd1c1952355d7cbd9d26
 Description: A minimal wayland desktop environment
+
+Package: mnz-land-dark-theme
+Version: 1.0.0
+Architecture: amd64
+Maintainer: Kale Suarez <jeremiahsuarez06@gmail.com>
+Priority: optional
+Section: utils
+Filename: pool/main/m/mnz-land-dark-theme/mnz-land-dark-theme_1.0.0_amd64.deb
+Size: 18625304
+SHA256: a045949107850a35a1568a041420a89ad700db04008ba2af1ae8375ca8b040d1
+SHA1: c219a70923ff3354bda2e2a46f3d796a5e13581c
+MD5sum: 26f0b03043022f36e6d07cbe71ce1003
+Description: Dark Default Themeing for mnz-land
 
 Package: nmrs-gui
 Version: 1.6.0
