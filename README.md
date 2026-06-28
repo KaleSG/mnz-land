@@ -8,5 +8,6 @@ sudo wget -O /usr/local/share/keyrings/mnz-land-keyring.key https://kalesg.githu
 sudo wget -O /etc/apt/sources.list.d/mnz-land.sources /etc/apt/sources.list.d/mnz-land.sources
 
 sudo apt update
+sudo apt install mnz-land
 ```
 
