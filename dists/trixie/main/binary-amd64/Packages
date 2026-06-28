@@ -1,3 +1,46 @@
+Package: mnz-land
+Version: 1.0.0
+Architecture: amd64
+Depends: rofi,
+ waybar,
+ labwc,
+ waybar,
+ nwg-look,
+ swaybg,
+ sway-notification-center,
+ network-manager,
+ pipewire,    
+ pipewire-pulse,
+ wireplumber,
+ pavucontrol,
+ swayidle,
+ brightnessctl,
+ wlr-randr,
+ tlp,
+ psmisc,
+ sudo,
+ curl,
+ cups,
+ system-config-printer,
+ kitty,
+ thunar,
+ thunar-archive-plugin,
+ file-roller,
+ grim,
+ slurp,
+ git,
+ gh,
+ nmrs-gui
+Maintainer: Kale Suarez <jeremiahsuarez06@gmail.com>
+Priority: optional
+Section: utils
+Filename: pool/main/m/mnz-land/mnz-land_1.0.0_amd64.deb
+Size: 924
+SHA256: c0cf74cfa99bb52245982c95c6046ab1043c5fb780f0e3d23363337b35a486e1
+SHA1: b3dba3150c3672b379daf1a16d25b0ddc82418eb
+MD5sum: a7c46d7de810ec21c0063d6f3fe479e2
+Description: A minimal wayland desktop environment
+
 Package: nmrs-gui
 Version: 1.6.0
 Architecture: amd64
