@@ -23,8 +23,8 @@ git space-checkout set themeing
 git checkout
 
 cp -r ./themeing/.config/* ~/.config/
-cp ./themeing/themes/* ~/.local/share/themes/
-cp ./fonts/* /usr/local/share/fonts/
+cp -r ./themeing/themes/* ~/.local/share/themes/
+cp ./themeing/fonts/* /usr/local/share/fonts/
 
 cd ..
 rm -rf mnz-land
