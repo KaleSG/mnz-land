@@ -1,0 +1,102 @@
+
+* {
+surface-top-bar: #161616;
+surface-bg-muted: #161616;
+surface-bg-mute-highlight: #181818;
+surface-bg: #272727;
+surface-hover-bg: #2b2b2b;
+scroll-bar-handle: #bfbfbf; 
+
+foreground-highlighted: #dadada;
+foreground: #b9b9b9;
+foreground-muted: #afafaf;
+}
+
+/* --- Global Reset & Base Styles --- */
+window, element, entry {
+    border: 0px;
+    background-color: @surface-bg-muted;
+}
+
+/* --- Main Window --- */
+window {
+    width: 20%;
+    margin: 0;
+    padding: 0;
+    border: 0px;
+    border-radius: 10px;
+}
+
+/* --- Input Bar & Entry --- */
+inputbar {
+    children: [entry];
+    background-color: @surface-top-bar;
+    margin: 2px;
+    padding: 8px;
+    border: 0px;
+    
+}
+
+entry {
+    padding: 3px 8px;
+    background-color: @surface-bg;
+    color: @foreground;
+    border-radius: 10px;
+    placeholder: "Search Apps";
+    placeholder-color: @foreground-highlighted;
+}
+
+/* --- List View & Scrollbar --- */
+listview {
+    lines: 5;
+    dynamic: true;
+    fixed-height: false;
+    background-color: @surface-bg-mute-highlight;
+    margin: 2px;
+    padding: 5px;
+    border: 0px;
+}
+
+scrollbar {
+    background-color: @surface-bg;
+    handle-color: @scroll-bar-handle;
+    border-radius: 4px;
+}
+
+/* --- List Elements --- */
+element {
+    margin: 2px 0px;
+    padding: 4px;
+    border-radius: 5px;
+}
+
+element normal.normal,
+element alternate.normal {
+    background-color: @surface-bg;
+}
+
+element selected.normal {
+    background-color: @surface-hover-bg;
+}
+
+/* --- Element Content --- */
+element-icon {
+    size: 2em;
+}
+
+element-text {
+    color: @foreground;
+    vertical-align: 0.5;
+}
+
+element-text selected {
+    text-color: @foreground-highlighted;
+}
+
+/* --- Disabled & Hidden UI Components --- */
+message,
+num-rows, 
+num-filtered-rows,
+textbox-current-entry {
+    enabled: false;
+}

@@ -1,9 +1,0 @@
-@import "../colors.gtk.css";
-
-#custom-notification {
-  padding: 4px 8px;
-}
-
-#custom-notification:hover {
-  font-weight: bold;
-}

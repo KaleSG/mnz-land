@@ -1,0 +1,7 @@
+Package: mnz-land-dark-theme
+Version: 1.0.0
+Priority: optional
+Architecture: amd64
+Section: utils
+Maintainer: Kale Suarez <jeremiahsuarez06@gmail.com>
+Description: Dark Default Themeing for mnz-land

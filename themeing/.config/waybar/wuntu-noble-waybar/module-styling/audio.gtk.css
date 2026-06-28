@@ -1,6 +1,0 @@
-@import "../colors.gtk.css";
-
-#pulseaudio.muted {
-  color: @foreground-muted;
-  background-color: transparent;
-}

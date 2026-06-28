@@ -1,0 +1,10 @@
+{
+    "wlr/taskbar": {
+        "format": "{icon}",
+        "icon-size": 24,
+        "icon-theme": "Colloid-Dark",
+        "tooltip-format": "{title}",
+        "on-click": "activate",
+        "cursor": true
+    }
+}

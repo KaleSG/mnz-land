@@ -1,0 +1,19 @@
+@import "../colors.gtk.css";
+
+#taskbar button {
+  background-color: alpha(@surface-bg-muted, 0.5);
+  margin: 0px 0px;
+  padding: 7px;
+  border-radius: 2px;
+  border-bottom: 2px solid @surface-bg;
+}
+
+#taskbar button:hover {
+  background-color: alpha(@surface-hover-bg, 0.5);
+  border-bottom-color: @surface-active-bg;
+}
+
+#taskbar button.active {
+  background-color: alpha(@surface-active-bg, 0.5);
+  border-bottom-color: alpha(@surface-highlight-bg, 0.7);
+}
