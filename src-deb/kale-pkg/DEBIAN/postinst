@@ -4,6 +4,7 @@ set -e
 FLATPAK_APPS="
     com.discordapp.Discord
     org.kicad.KiCad
+    com.slack.Slack
 "
 
 case "$1" in
