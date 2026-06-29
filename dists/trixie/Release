@@ -1,19 +1,19 @@
 Origin: KaleSG
 Label: mnz-land
 Codename: trixie
-Date: Mon, 29 Jun 2026 18:08:26 UTC
+Date: Mon, 29 Jun 2026 18:13:24 UTC
 Architectures: amd64
 Components: main
 Description: my private repo for mnz-land
 MD5Sum:
- 6c59127e5ead88692e12cd840a08ea01 2563 main/binary-amd64/Packages
- bc777eef3912c689d9a8d6b2ca4129e7 1201 main/binary-amd64/Packages.gz
+ 4264cee1205fe34cf544d5613f892c84 2576 main/binary-amd64/Packages
+ af9c7268d6a668f4998f494e04484427 1216 main/binary-amd64/Packages.gz
  c4b658877f8c0bf2a52481a264357617 109 main/binary-amd64/Release
 SHA1:
- 8ac72fdbc7955292adf82e6c2ceb8a694968f2f4 2563 main/binary-amd64/Packages
- ebd8990f537b36dad1fbb561993905ba8154cee5 1201 main/binary-amd64/Packages.gz
+ 79dfcaeed691fd6869494050c8d24e793c529169 2576 main/binary-amd64/Packages
+ 89d978c3e263bb927553f6e8009aeb47f63d1e91 1216 main/binary-amd64/Packages.gz
  c739a9ac4d608a41ee3f992fcc1c61f389ddb89f 109 main/binary-amd64/Release
 SHA256:
- c75219389137bbf06a9a7a961522bb2bb3684e7fdd08e88ba3f68cbd08e5dc1b 2563 main/binary-amd64/Packages
- d29f7ae22e6d38a0ccedbbf410aa7e6d01eeb8d6ed7c6528a1e4ce7c3ef15dd2 1201 main/binary-amd64/Packages.gz
+ f16470cb844b34530b06ec974fd8676fc4a24d2251fe1910a3f28da8eadbbe40 2576 main/binary-amd64/Packages
+ e97ae2e019b03796fe28bb1b1f6f97c30100c3881ed3aedc808f4947e81abb31 1216 main/binary-amd64/Packages.gz
  2f7caae30b4b1140d9d2985899af6d8667beac360c7ff753ca6805309bcf7fa9 109 main/binary-amd64/Release

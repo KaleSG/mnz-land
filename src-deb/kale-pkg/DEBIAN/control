@@ -1,5 +1,5 @@
 Package: kale-pkg
-Version: 1.0.1
+Version: 1.0.3
 Section: utils
 Maintainer: Kale Suarez <jeremiahsuarez06@gmail.com>
 Description: Kale's personal software, feel free to use if you want.
@@ -12,4 +12,5 @@ Depends: flatpak,
     libreoffice-writer,
     libreoffice-calc,
     libreoffice-impress,
-    libreoffice-draw
+    libreoffice-draw,
+    aptitude
