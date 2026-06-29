@@ -4,35 +4,35 @@ Hash: SHA512
 Origin: KaleSG
 Label: mnz-land
 Codename: trixie
-Date: Mon, 29 Jun 2026 01:11:50 UTC
+Date: Mon, 29 Jun 2026 01:49:17 UTC
 Architectures: amd64
 Components: main
 Description: my private repo for mnz-land
 MD5Sum:
- 0e2b0e37432db37e8d2a35d65b545e2d 1895 main/binary-amd64/Packages
- f046b6deb7189d8d62776e5fe73b3c9b 950 main/binary-amd64/Packages.gz
+ 12837da483758dbc85bff7c690fd150c 1894 main/binary-amd64/Packages
+ 4d712218f6c0af34f362687b20267884 947 main/binary-amd64/Packages.gz
  c4b658877f8c0bf2a52481a264357617 109 main/binary-amd64/Release
 SHA1:
- dfd95d5678b18403fdb506df2c70813d94163bbc 1895 main/binary-amd64/Packages
- c9922573476c127dcd9ea84c9c26e1be75ac2ffa 950 main/binary-amd64/Packages.gz
+ 527a0ab3dcf5f1e4ccf6130349ef6fb3147d9131 1894 main/binary-amd64/Packages
+ 2eb14101e5b4fc4895f1aee21df776d2acaf847c 947 main/binary-amd64/Packages.gz
  c739a9ac4d608a41ee3f992fcc1c61f389ddb89f 109 main/binary-amd64/Release
 SHA256:
- 270aeea161a7bd8e9380bba40aeafde665e2e996e511469970ce9f286a778b02 1895 main/binary-amd64/Packages
- 5192113c5cf50cc9503d65c2c4420a5fdf2618492fe5f5e8daf95ab120bac25b 950 main/binary-amd64/Packages.gz
+ 7380e67a83c10038daca0b55609dd8fb22970462a98d2df833f5714a70ee915e 1894 main/binary-amd64/Packages
+ d767bb9806bc0977e12e058ce2065000e3c2c32272ad32847c2d70448d33c000 947 main/binary-amd64/Packages.gz
  2f7caae30b4b1140d9d2985899af6d8667beac360c7ff753ca6805309bcf7fa9 109 main/binary-amd64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEEKuANIDwkRcuVsDNpIPt18gve2t4FAmpBxlcACgkQIPt18gve
-2t49GxAAm8sjgYvLkRJVNCHFHYD8f8vOyhTfO17RpZisNex11MTUgqnE97JjuAeW
-pnDTt5hyPIxxoP+F0DrTcL9l5HRqvf/pkUkCrL9oVfOazGOnEttMvbgvc9Dley6Q
-RMXRWsoghim4IjzE9o553ykOkpchlY3YhtQdO4de1yvFu0onIUBtzqowUTw4esQI
-YrTS1OxO23ZTLKFSIbF0yP19H7oroLpn4+pNSCWpwvgY0g2PxqAn3SKXGisdcs3+
-6wo9nXXFSotw3HliU/fKz45jOylCAgfOLmqKIJzORfvzIBO9RA7T28XBpjGYNFlP
-6Jw8vmyh7JQvBbm+Pgg/MlpSex/RfyEqnaIZK25nTsiSHqst7FXj3XTRR8nq9jq4
-3p/CBMcU/ufOx5npjjzThPFoNynapJIw8GBSYJs49Z1HVfxBsQ8iTlD8S4Ft4PAu
-snwxhWk6tvWuPucgPUURDOarY3H9iLsSC+T3woS9SD8cuG4xJZA8ke+FQU5Bn6Ti
-9Yv+aNG4xwpn1leF9wGXSvFDLOIGobYvGNb8PRTn4g1ZSmBL6exZUDFPX6/ZU7Nc
-5Kob4kKX3/Mc/AwRUtEmJnbLHzMRA0l05jJMp72YjFnzrLDxouanS5SvMivGmuti
-nO+e/711YmpKmOOXpmjKHpztrDGCJrCamcY2BvhRHRA1iZwU2vY=
-=UnHZ
+iQIzBAEBCgAdFiEEx3C7m6+we5aGx9rJX0TflrpB2UAFAmpBzx0ACgkQX0TflrpB
+2UCPSBAAobe5NdYtAa7lZA4uySWdRips7ic9YuBvnZ41C70pP1yyBiacGcvKjhx4
+Yw2nmwvvcgU+c6h61t8mtjT2SKNwCq/MjVf33hz7R08qp7yPdt3xyeMRYrpkN6He
+ZodFsUBawuLTvTT+hCB4Xy/6GDyeb4nHqgKo7sVD5axzJYGEf5c4uzB4bnYIUL1w
+2wEkuYF8qSsoQrF+2JWd0KNN4M9/yLWoRhMCOctnmYNFRHMvTwvz+g0//vyQntEG
+zLlefFfNzxfZ7LxWgUrvRcX8O0uHgB6JgRK7hPn30KoGcLVse/FJ9TChp6WQg6Qh
+lVAus86t20xOIs3GmnCwiv6Q9gmXKzbPFWIZGOHAmb/dQCSsItn/BS3foI8gKyHv
+tbIegrA5aqtLMqXM+b6P/HZsonqA1mXmjl7wUWK4otria5Yb9yaA4WuaU7ua7R0/
+MaWDtm6wyV2IA1aP3jaiWZ1sIuwqFzMhrw5/VOowiPyQn024ci3nSzz6pLGEV9x4
+l3Nv/xLKEXssJIjspQTm6PnL9Q1blMEbxOLrjLSPEjj7O9os4v+FEzlc3/PzVoan
+y3F9blM0OLxYDPlt7Df6ola06PEViV3lcTX0Z3NeuWoUBy9PPKAtKL7/N527AU2J
+mLMfbnI8QmumoonLFVq22oxHUHOfZIQGIOM6fbLttoC1qjE6fBU=
+=ko9G
 -----END PGP SIGNATURE-----

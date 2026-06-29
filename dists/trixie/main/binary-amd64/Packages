@@ -1,5 +1,5 @@
 Package: mnz-land
-Version: 1.0.1
+Version: 1.0.2
 Architecture: amd64
 Depends: rofi,
  waybar,
@@ -35,24 +35,24 @@ Depends: rofi,
 Maintainer: Kale Suarez <jeremiahsuarez06@gmail.com>
 Priority: optional
 Section: utils
-Filename: pool/main/m/mnz-land/mnz-land_1.0.1_amd64.deb
+Filename: pool/main/m/mnz-land/mnz-land_1.0.2_amd64.deb
 Size: 936
-SHA256: 0af15062d16c650fe9a511ed6dbb0c13cf7c31fba0f23645dbc212d740aeed9f
-SHA1: fde3f67a0ed95142e933fc1ef0a2bc54563b5d07
-MD5sum: 77f5b78ef19e898c6c3f1628e9904e85
+SHA256: dca843208a56930d852d41a94e02ba7f0495a662c862c0ad65c661d4fc06f097
+SHA1: b5921da7d52f3f8546dda9287f4b164e7502fe17
+MD5sum: 1a438a26b26e6b57daf419b74b9a1515
 Description: A minimal wayland desktop environment
 
 Package: mnz-land-dark-theme
-Version: 1.0.0
+Version: 1.0.1
 Architecture: amd64
 Maintainer: Kale Suarez <jeremiahsuarez06@gmail.com>
 Priority: optional
 Section: utils
-Filename: pool/main/m/mnz-land-dark-theme/mnz-land-dark-theme_1.0.0_amd64.deb
-Size: 18625844
-SHA256: e1cc3248d14c32c6f18aecf9517524cb8019ec65b4d279df6348aa5f4533e86e
-SHA1: d4cade5e54eb3090e08c0b92b6fad50496132e48
-MD5sum: d52bbd7b29b06865e78a528817acdae9
+Filename: pool/main/m/mnz-land-dark-theme/mnz-land-dark-theme_1.0.1_amd64.deb
+Size: 6019968
+SHA256: 2745fd147714f6edc669bc135b06c46d7058ae0b25460b3cb9ea470712f0a323
+SHA1: 41a7a1dc56d5ebef3bf1ac3bb9d0595601128f06
+MD5sum: fa2bef4bf073445cfe3fd5f6953df99c
 Description: Dark Default Themeing for mnz-land
 
 Package: nmrs-gui
@@ -70,9 +70,9 @@ Maintainer: Kale Suarez <jeremiahsuarez06@gmail.com>
 Priority: optional
 Section: utils
 Filename: pool/main/n/nmrs-gui/nmrs-gui_1.6.0_amd64.deb
-Size: 1070988
-SHA256: 5270b038fcf72c59f141ee1240c5c9db64585975c6298a6e923681a7c16763ec
-SHA1: 173d32944eccc197f1c69723f7e81a9c156b9e95
-MD5sum: f85fedc10787f1eae046cfec98c6837c
+Size: 1071068
+SHA256: 8d9f36e1f8dc03caa96fcdc1235e3cd985a08d9a9908bbf3c60033fb51bc7783
+SHA1: e70fe094aaf511038289faff320a9e0cc9984b24
+MD5sum: 2f5de2c62edb73a2b21db25dc0c18ebe
 Description: A GTK4 GUI for managing NetworkManager connections on Linux. Built with Rust and libadwaita.
 
