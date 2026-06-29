@@ -1,5 +1,5 @@
 Package: mnz-land
-Version: 1.0.6
+Version: 1.0.7
 Priority: optional
 Architecture: amd64
 Depends: rofi,
@@ -35,7 +35,8 @@ Depends: rofi,
  mnz-land-dark-theme,
  firefox-esr,
  code,
- xdg-utils
+ xdg-utils,
+ wl-clipboard
 Section: utils
 Maintainer: Kale Suarez <jeremiahsuarez06@gmail.com>
 Description: A minimal wayland desktop environment
