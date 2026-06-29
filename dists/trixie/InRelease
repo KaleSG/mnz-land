@@ -4,7 +4,7 @@ Hash: SHA512
 Origin: KaleSG
 Label: mnz-land
 Codename: trixie
-Date: Sun, 28 Jun 2026 19:19:22 UTC
+Date: Mon, 29 Jun 2026 00:11:02 UTC
 Architectures: amd64
 Components: main
 Description: my private repo for mnz-land
@@ -22,17 +22,17 @@ SHA256:
  2f7caae30b4b1140d9d2985899af6d8667beac360c7ff753ca6805309bcf7fa9 109 main/binary-amd64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEEx3C7m6+we5aGx9rJX0TflrpB2UAFAmpBc7sACgkQX0TflrpB
-2UBTTg//YDcYfPlf9leVMMEzL5FaEoEti+yU/cbnUDY3DZS5Ow5d0s/ufllU4peq
-lhn4Zdoa50kCnnwIDjXavwGu9ooRgGdyZEnDixSJoFY0Z44KCBM8aj6E1wkp4WVF
-mFOcNQZE8QNyNpui/D+KWDseplYADI0v+pfWnuRKUywbDSk4RgC0SqhBEFUBQ9BE
-+buoGpar+3vFjaH8hyhKwro5r7/KSeMJCzQ09iK3aF1DgvgBWjds4JVmv34rhhss
-OBmvUJk4eESpiPi6GJgyhgq1/azii+HMbUq5Dx2DjoFxZwn0/GZYnl50OTXJFz1r
-uWlYAHn+X2iT1qiAwURk0bGsrbEyxRR4oIALusfwqpU1A/Iu3KVzOtijUiG5UEph
-iYiffIIlmpBcARmWtSe8Q7Fez6oyoJKBy93OIj/grt8K6X+Xjx8LeguE6/7WAHQw
-uMRsFuFH4vFlQE203rAnPJ0hsaXYsjwh03QuYm3kZIPe+Z8ffjamI6GnXUzXyKR0
-061KyItP8f8yhXBtWpk3NekPzzc1BI7WM74yA+ySZ7gNyFNf3aLR0okqQA2nJNeC
-gw0ZOn4mhAQt1dX4E6rWCZaAnqy+NQkPF4YzJ4qUKX8MGk+V+7yv/Nt8r6+aV7+M
-HeQl3Mkr1jnuEAoTGrrpSxaeiCX4j54noFasRCp2AjnWKNkSOmk=
-=aiwF
+iQIzBAEBCgAdFiEEKuANIDwkRcuVsDNpIPt18gve2t4FAmpBuBwACgkQIPt18gve
+2t4+XA//TCwHWE3NR6kUE9mSyJddN1JGBA5PgzRUUT8nReSdTDzJgxQ5cg+vm0Uc
+qoDhKh3CnFdBT3Qk2TPlFNZWpOkxQ/Yyty4YXQ4yYNy97pKJNQJlWdRAb9zAf2DL
+67yCnbcV178j0w3c36inqmapLJits/bS9BwBWcA5mp06dk5gALh7URKI+ao+rFDu
+UtC/BJ7VgiBPWaG2hyZsWtEmI+UUiosJiBn95p4+OHLZy0mfg1hYkqLNZzBnySJW
+ZYBLrBQ75xkqC63Qus4qSIr8Vj6Hprr+VABjqAH4XFfq+xwbyA91w7/GskIbzarH
+qPRsQ/BlCJuG35I0GsjFmb1SQn4KdQ82NgiQpYC/WZhSUq5aV+rwf+H8gJryQQSh
+lVqohZIN1m9wsKeWINZxX+HOjgdG+HenlMOGgFnK3loeXbvWcCdcxOBIMDOcqGop
+IZzNkcKWLOdFAuMAGfMlNuNjc+ZJGMpy8eOjFNEWIvxOnTO3/wvNkWRRGV9+ARle
+ztry3v4H7XnfieDDOSTTr7B0iixLICYIxLPnDBzTcy627wIyZboyjg8fNk+9ZNUT
+Ob9sMt8XmcFWjpiPBbnvWfzmVPMkanh6MBAEill72epdvbFEIn8hT+eHBM+yRC+r
+bvQLb5xlotvnevGEeFDVdVh6yYY3cDu5WPglJEvJ/Gv3fqf4caQ=
+=qRFO
 -----END PGP SIGNATURE-----
