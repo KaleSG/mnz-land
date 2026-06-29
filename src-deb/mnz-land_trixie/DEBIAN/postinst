@@ -1,0 +1,17 @@
+#!/bin/bash
+
+# Set ifupdown to managed by network manager
+sed -i 's/managed=false/managed=true/' /etc/NetworkManager/NetworkManager.conf 
+
+# set interface file for networking overide
+cat > /etc/network/interfaces << 'EOF'
+auto lo
+iface lo inet loopback
+EOF
+ 
+# enable NetworkManager
+systemctl enable NetworkManager
+systemctl start NetworkManager
+ 
+# Disable Default Manager
+systemctl disable networking
