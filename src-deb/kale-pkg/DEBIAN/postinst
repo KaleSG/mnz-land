@@ -1,1 +1,5 @@
+#!/bin/bash
+
+flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
+
 wget -qO - "https://KaleSG.github.io/mnz-land/flatpaks.txt" | xargs -I {} flatpak install -y flathub {}
