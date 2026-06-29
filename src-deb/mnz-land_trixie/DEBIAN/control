@@ -1,5 +1,5 @@
 Package: mnz-land
-Version: 1.0.14
+Version: 1.0.15
 Priority: optional
 Architecture: amd64
 Depends: rofi,
