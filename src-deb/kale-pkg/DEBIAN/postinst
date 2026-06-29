@@ -1,0 +1,14 @@
+#!/bin/sh
+set -e
+
+# Check if SUDO_USER is set
+if [ -n "$SUDO_USER" ]; then
+    # Get the home directory safely using getent
+    USER_HOME=$(getent passwd "$SUDO_USER" | cut -d: -f6)
+    mkdir -p $USER_HOME/.config
+    cp -r /etc/skel/.config/* $USER_HOME/.config/
+    sudo chown -R $SUDO_USER:$SUDO_USER $USER_HOME/.config/
+else
+    echo "Not running via sudo or SUDO_USER is empty."
+    USER_HOME="$HOME"
+fi
