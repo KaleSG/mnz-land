@@ -12,7 +12,7 @@ Depends: rofi,
  sway-notification-center,
  network-manager,
  pipewire,
- loupe    
+ loupe,    
  pipewire-pulse,
  wireplumber,
  blueman,
