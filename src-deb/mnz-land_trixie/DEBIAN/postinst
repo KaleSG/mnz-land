@@ -24,6 +24,15 @@ EOF
     systemctl start cups
     systemctl enable cups
 
+    # configure ufw
+    ufw default deny incoming
+    ufw default allow outgoing
+    ufw allow httos
+    ufw allow http
+    ufw enable
+    echo "ufw configured: "
+    ufw status verbose
+
 else
     echo "Upgrade or reconfiguration detected. Skipping initial setup."
 fi
