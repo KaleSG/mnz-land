@@ -77,7 +77,9 @@ The following are categories of needs and what packages this DE contains to sati
 * Dev Tools
     - gh
     - git
-
+* Security
+    - gnome-keyring
+    - ufw
 ### Default labwc shortcuts
 * Ctrl + Shift + s
     - Opens Kitty Terminal Emulator
