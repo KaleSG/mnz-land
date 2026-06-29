@@ -13,5 +13,3 @@ Depends: flatpak,
     libreoffice-calc,
     libreoffice-impress,
     libreoffice-draw
-
-
