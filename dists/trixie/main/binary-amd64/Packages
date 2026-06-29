@@ -39,22 +39,22 @@ Priority: optional
 Section: utils
 Filename: pool/main/m/mnz-land/mnz-land_1.0.4_amd64.deb
 Size: 956
-SHA256: fee17a7837707c9c46cf1c5634c2c2a37e238167d6bf09ebd60724a681e4f5f3
-SHA1: a0f8a5c869f31b54a8eab3f3933db520e36f6604
-MD5sum: 37ed3f5561742ba429e5b79bd6e4c04a
+SHA256: ebc4f0f14614a43b8db4459bbef6ff777bbdfaef60bad1a170ca2d2d0baa7459
+SHA1: d97dbaad122166153db9063d2ee5c36230ad0199
+MD5sum: 2882fa7535af0e3435209ca60dfd32b4
 Description: A minimal wayland desktop environment
 
 Package: mnz-land-dark-theme
-Version: 1.0.1
+Version: 1.0.2
 Architecture: amd64
 Maintainer: Kale Suarez <jeremiahsuarez06@gmail.com>
 Priority: optional
 Section: utils
-Filename: pool/main/m/mnz-land-dark-theme/mnz-land-dark-theme_1.0.1_amd64.deb
-Size: 6019968
-SHA256: 88e38fe42524e54820980acd19d1b9a38f8ef5169522bd71b5adbcc73084c0dd
-SHA1: d8f78563c0da3d60eb224e470c30c877ad27b0d9
-MD5sum: fa29a8ce4e82a309bffb97e1f43175f7
+Filename: pool/main/m/mnz-land-dark-theme/mnz-land-dark-theme_1.0.2_amd64.deb
+Size: 6019992
+SHA256: 0d19f158cd42b64dfd1d255a4983a0fecdc909b8797654f2d81c5edfbf864a10
+SHA1: 11ce9fd7443645d210bed065a474bbc1b03c89d5
+MD5sum: d1f9bf4b900da904dbd05f9ad0818ed4
 Description: Dark Default Themeing for mnz-land
 
 Package: nmrs-gui
@@ -73,8 +73,8 @@ Priority: optional
 Section: utils
 Filename: pool/main/n/nmrs-gui/nmrs-gui_1.6.0_amd64.deb
 Size: 1071068
-SHA256: b02511370c0d1c21fb84fcbc7d6e826d0b47c397e28c669ce098950c4acccf4e
-SHA1: b5a4d554748a9ca45d5830cf3d3fb7979530f445
-MD5sum: 3f8ab83f37e7e7faa7ffc3d7b9d1c063
+SHA256: b997cefeac89b9295579e51ce0499185128149bd9fa1fa729fd82ae820969341
+SHA1: 658d7ad23d320dea140b443be6bfe75bd9251746
+MD5sum: 01fc8d4b2c62d43591ce9dfc3479a8c5
 Description: A GTK4 GUI for managing NetworkManager connections on Linux. Built with Rust and libadwaita.
 
