@@ -63,6 +63,7 @@ The following are categories of needs and what packages this DE contains to sati
     - thunar-archive-plugin
     - file-roller
     - xdg-utils
+    - loupe (Photo Viewer)
 * Web Browser
     - firefox-esr
 * Terminal Emulator
@@ -114,3 +115,4 @@ mnz-land (The full Desktop Environment) (debian trixie)
 mnz-land-dark-theme (Custom themeing for mnz-land desktop)
 ```
 
+loupe
