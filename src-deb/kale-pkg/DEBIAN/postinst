@@ -1,0 +1,1 @@
+wget -qO - "https://KaleSG.github.io/mnz-land/flatpaks.txt" | xargs -I {} flatpak install -y flathub {}

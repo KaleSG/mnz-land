@@ -1,20 +1,29 @@
 #!/bin/bash
 
-# Set ifupdown to managed by network manager
-sed -i 's/managed=false/managed=true/' /etc/NetworkManager/NetworkManager.conf 
+# $1 = "configure"
+# $2 = empty on fresh install, contains old version on upgrade
+if [ "$1" = "configure" ] && [ -z "$2" ]; then
+    echo "First install detected. Running network and print configuration..."
 
-# set interface file for networking overide
-cat > /etc/network/interfaces << 'EOF'
+    # Set ifupdown to managed by network manager
+    sed -i 's/managed=false/managed=true/' /etc/NetworkManager/NetworkManager.conf 
+
+    # set interface file for networking overide
+    cat > /etc/network/interfaces << 'EOF'
 auto lo
 iface lo inet loopback
 EOF
- 
-# enable NetworkManager
-systemctl enable NetworkManager
-systemctl start NetworkManager
- 
-# Disable Default Manager
-systemctl disable networking
+     
+    # enable NetworkManager
+    systemctl enable NetworkManager
+    systemctl start NetworkManager
+     
+    # Disable Default Manager
+    systemctl disable networking
 
-systemctl start cups
-systemctl enable cups
+    systemctl start cups
+    systemctl enable cups
+
+else
+    echo "Upgrade or reconfiguration detected. Skipping initial setup."
+fi
