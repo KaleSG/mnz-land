@@ -1,5 +1,5 @@
 Package: mnz-land
-Version: 1.0.13
+Version: 1.0.14
 Priority: optional
 Architecture: amd64
 Depends: rofi,
@@ -11,7 +11,8 @@ Depends: rofi,
  libnotify4,
  sway-notification-center,
  network-manager,
- pipewire,    
+ pipewire,
+ loupe    
  pipewire-pulse,
  wireplumber,
  blueman,
