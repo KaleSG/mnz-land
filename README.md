@@ -12,6 +12,7 @@ This project is a personal attempt at creating a desktop environment that suits 
  * Ability to set background
  * Simple taskbar
  * File Manager
+ * Terminal Emulator
  * Web browser
  * Text/Code Editor
  * Basic GTK theme management
@@ -47,6 +48,7 @@ The following are categories of needs and what packages this DE contains to sati
 * Screenshots/Capture
     - grim
     - slurp
+    - (Default shortcut: Super + Shift + S)
 * Brightness Management
     - brightnessctl
 * Notification
@@ -59,8 +61,11 @@ The following are categories of needs and what packages this DE contains to sati
     - thunar
     - thunar-archive-plugin
     - file-roller
+    - xdg-utils
 * Web Browser
     - firefox-esr
+* Terminal Emulator
+    - kitty
 * Text/Code Editor
     - vscode (repository added automatiaclly)
 * GTK/Theme Management
@@ -71,9 +76,24 @@ The following are categories of needs and what packages this DE contains to sati
     - gh
     - git
 
+### Default labwc shortcuts
+* Ctrl + Shift + s
+    - Opens Kitty Terminal Emulator
+* Windows + e
+    - Opens Thunar File Manager
+* Alt + s
+    - Opens Rofi drun Application Launcher
+* Alt + F12
+    - Toggles/Disables labwc keybinds
 
 
+#### Note on themeing
+Themeing for Waybar, Rofi, SwayNC are all custom modified from the base defaults.
+GTK themeing is a modified version of Colloid-Grey-Dark
+LabWC themeing is a modified version of Numix-Clone
 
+By default, mnz-land is a dark-mode theme. There are no plans for a light mode, and is left up to anyone who uses this
+environment to add.
 
 
 ## Install
@@ -85,5 +105,11 @@ The following are categories of needs and what packages this DE contains to sati
 #### For Full Installation:
 ```bash
 wget -qO- https://KaleSG.github.io/mnz-land/full-setup.sh | /bin/bash
+```
+### Available Packages In Repository
+```
+nmrs-gui [1.6.0] (debian trixie)
+mnz-land (The full Desktop Environment) (debian trixie)
+mnz-land-dark-theme (Custom themeing for mnz-land desktop)
 ```
 
