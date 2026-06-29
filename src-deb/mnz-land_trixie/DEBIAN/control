@@ -1,5 +1,5 @@
 Package: mnz-land
-Version: 1.0.2
+Version: 1.0.3
 Priority: optional
 Architecture: amd64
 Depends: rofi,
@@ -32,7 +32,8 @@ Depends: rofi,
  git,
  gh,
  nmrs-gui,
- mnz-land-dark-theme
+ mnz-land-dark-theme,
+ firefox-esr
 Section: utils
 Maintainer: Kale Suarez <jeremiahsuarez06@gmail.com>
 Description: A minimal wayland desktop environment
