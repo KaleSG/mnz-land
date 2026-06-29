@@ -45,10 +45,11 @@ The following are categories of needs and what packages this DE contains to sati
 * Printer Connectivity
     - cups
     - system-config-printer
-* Screenshots/Capture
+* Screenshots/Capture/Copy
     - grim
     - slurp
     - (Default shortcut: Super + Shift + S)
+    - wl-clipboard
 * Brightness Management
     - brightnessctl
 * Notification
