@@ -41,6 +41,17 @@
       <action name="Execute" command="brightnessctl set 10%-"/>
     </keybind>
 
+    <!-- Screenshot Capabilities-->
+    <keybind key="W-S-s">
+      <action name="Execute" command="~/.config/labwc/screenshot.sh"/>
+    </keybind>
+
+
+    <!-- Toggle labwc keybinds-->
+    <keybind key="A-F12">
+      <action name="ToggleKeybinds" />
+    </keybind>
+
   </keyboard>
 
   <libinput>
@@ -53,5 +64,7 @@
     <name>Numix-Clone</name>
     <cornerRadius>8</cornerRadius>
   </theme>
+
+
 
 </labwc_config>
