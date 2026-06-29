@@ -1,5 +1,20 @@
-#!/bin/bash
+#!/bin/sh
+set -e
 
-flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
+FLATPAK_APPS="
+    com.discordapp.Discord
+    org.kicad.KiCad
+"
 
-wget -qO - "https://KaleSG.github.io/mnz-land/flatpaks.txt" | xargs -I {} flatpak install -y flathub {}
+case "$1" in
+    configure)
+        flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
+
+        for app in $FLATPAK_APPS; do
+            flatpak install --noninteractive flathub "$app"
+        done
+        ;;
+    configure|upgrade)
+        flatpak update --noninteractive
+        ;;
+esac
