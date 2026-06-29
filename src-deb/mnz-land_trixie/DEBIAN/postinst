@@ -15,3 +15,6 @@ systemctl start NetworkManager
  
 # Disable Default Manager
 systemctl disable networking
+
+systemctl start cups
+systemctl enable cups
