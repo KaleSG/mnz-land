@@ -1,5 +1,5 @@
 Package: mnz-land
-Version: 1.0.9
+Version: 1.0.10
 Priority: optional
 Architecture: amd64
 Depends: rofi,
@@ -8,6 +8,7 @@ Depends: rofi,
  waybar,
  nwg-look,
  swaybg,
+ libnotify4,
  sway-notification-center,
  network-manager,
  pipewire,    
