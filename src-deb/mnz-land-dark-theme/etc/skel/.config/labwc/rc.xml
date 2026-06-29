@@ -46,7 +46,6 @@
       <action name="Execute" command="~/.config/labwc/screenshot.sh"/>
     </keybind>
 
-
     <!-- Toggle labwc keybinds-->
     <keybind key="A-F12">
       <action name="ToggleKeybinds" />
@@ -64,7 +63,5 @@
     <name>Numix-Clone</name>
     <cornerRadius>8</cornerRadius>
   </theme>
-
-
 
 </labwc_config>
