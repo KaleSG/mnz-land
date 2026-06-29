@@ -4,10 +4,7 @@ A minimized wayland-based desktop environment. Natively built for debian trixie.
 ## Install
 
 ```bash
-sudo wget -O /usr/local/share/keyrings/mnz-land-keyring.key https://kalesg.github.io/mnz-land/mnz-land-keyring.key
-sudo wget -O /etc/apt/sources.list.d/mnz-land.sources /etc/apt/sources.list.d/mnz-land.sources
-
-sudo apt update
-sudo apt install mnz-land
+ # Load necessary apt keys
+ wget -qO- https://KaleSG.github.io/mnz-land/apt-setup.sh | /bin/bash
 ```
 
