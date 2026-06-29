@@ -1,0 +1,81 @@
+Package: mnz-land
+Version: 1.0.6
+Architecture: amd64
+Depends: rofi,
+ waybar,
+ labwc,
+ waybar,
+ nwg-look,
+ swaybg,
+ sway-notification-center,
+ network-manager,
+ pipewire,    
+ pipewire-pulse,
+ wireplumber,
+ pavucontrol,
+ swayidle,
+ brightnessctl,
+ wlr-randr,
+ tlp,
+ psmisc,
+ sudo,
+ curl,
+ cups,
+ system-config-printer,
+ kitty,
+ thunar,
+ thunar-archive-plugin,
+ file-roller,
+ grim,
+ slurp,
+ git,
+ gh,
+ nmrs-gui,
+ mnz-land-dark-theme,
+ firefox-esr,
+ code,
+ xdg-utils
+Maintainer: Kale Suarez <jeremiahsuarez06@gmail.com>
+Priority: optional
+Section: utils
+Filename: pool/main/m/mnz-land/mnz-land_1.0.6_amd64.deb
+Size: 956
+SHA256: 3a5b855472ede72aeda49bdf4b6febda957b1cef989a97cb4d749d6c7355c7c5
+SHA1: 6d3420d9be1ac7f4dbf9f85e9e2e1d875203ad4d
+MD5sum: 2095d6685b88fc2b6b764f3cef49d2a9
+Description: A minimal wayland desktop environment
+
+Package: mnz-land-dark-theme
+Version: 1.0.4
+Architecture: amd64
+Maintainer: Kale Suarez <jeremiahsuarez06@gmail.com>
+Priority: optional
+Section: utils
+Filename: pool/main/m/mnz-land-dark-theme/mnz-land-dark-theme_1.0.4_amd64.deb
+Size: 6019516
+SHA256: 7385f1f33103675b594737e89ecd392de6567d7525bc65aa2bd2fcad03c27f6d
+SHA1: 09211e2c7e9de0eff0f80b1306ebfcec59b60f9c
+MD5sum: 07ebc747f69f6b87f312c5de29f94a09
+Description: Dark Default Themeing for mnz-land
+
+Package: nmrs-gui
+Version: 1.6.0
+Architecture: amd64
+Depends: pkg-config,
+  libglib2.0-dev,
+  libgirepository1.0-dev,
+  libgdk-pixbuf-xlib-2.0-dev,
+  libpango1.0-dev,
+  libcairo2-dev,
+  libgtk-4-dev,
+  libadwaita-1-dev
+Maintainer: Kale Suarez <jeremiahsuarez06@gmail.com>
+Priority: optional
+Section: utils
+Filename: pool/main/n/nmrs-gui/nmrs-gui_1.6.0_amd64.deb
+Size: 1071068
+SHA256: 1d11f21a6023472156c8a0db078a9fdef7aa39510f8f1e30e7af91eaac27e866
+SHA1: ca0f9b90a96e54dfbe2a2ec733b45216238ae094
+MD5sum: 17cd2d1ce70775063fc8aa00adac278f
+Description: A GTK4 GUI for managing NetworkManager connections on Linux. Built with Rust and libadwaita.
+
