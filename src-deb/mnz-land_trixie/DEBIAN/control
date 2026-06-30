@@ -6,7 +6,7 @@ Depends: rofi,
  waybar,
  mate-polkit,
  labwc,
- lxpolkit
+ lxpolkit,
  waybar,
  nwg-look,
  swaybg,
