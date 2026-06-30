@@ -41,7 +41,7 @@ Depends: rofi,
  xdg-utils,
  wl-clipboard,
  gnome-keyring,
- ufw,
+ ufw
 Recommends: firefox-esr
 Section: utils
 Maintainer: Kale Suarez <jeremiahsuarez06@gmail.com>
