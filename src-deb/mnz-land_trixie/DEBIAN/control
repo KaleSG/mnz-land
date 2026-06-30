@@ -1,10 +1,9 @@
 Package: mnz-land
-Version: 1.0.21
+Version: 1.0.22
 Priority: optional
 Architecture: amd64
 Depends: rofi,
  waybar,
- mate-polkit,
  labwc,
  lxpolkit,
  pkexec,
@@ -39,12 +38,11 @@ Depends: rofi,
  gh,
  nmrs-gui,
  mnz-land-dark-theme,
- firefox-esr,
- code,
  xdg-utils,
  wl-clipboard,
  gnome-keyring,
- ufw
+ ufw,
+Recommends: firefox-esr
 Section: utils
 Maintainer: Kale Suarez <jeremiahsuarez06@gmail.com>
 Description: A minimal wayland desktop environment
