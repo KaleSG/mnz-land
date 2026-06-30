@@ -5,9 +5,9 @@ Priority: optional
 Section: utils
 Filename: pool/main/k/kale-pkg/kale-pkg_1.0.11_amd64.deb
 Size: 2096
-SHA256: 0520c9c54878388d75a17c1f9e95bc4a8853ed7f5322297134e015b513ddcbec
-SHA1: 31e24a9ab5cee874a5fe24156d389c8082309c2d
-MD5sum: 7bbd5fee52ca40d867ac1425396022ba
+SHA256: c665aff9db5c4f39dfc9bd3f72c1a50eeb589e96a27e2ad6747f4800805c476b
+SHA1: 65b7885f99dc0733da868ffeddba150565cc9b3e
+MD5sum: 1f3e36e8d9cf0b6ed9dd199ac368d748
 Description: Kale's personal software, feel free to use if you want.
 Architecture: amd64
 Depends: flatpak,
@@ -64,15 +64,15 @@ Depends: rofi,
  wl-clipboard,
  gnome-keyring,
  ufw
-Recommends: firefox-esr
+Recommends: firefox-esr, code
 Maintainer: Kale Suarez <jeremiahsuarez06@gmail.com>
 Priority: optional
 Section: utils
 Filename: pool/main/m/mnz-land/mnz-land_1.0.22_amd64.deb
-Size: 1476
-SHA256: 2673b7aa5ce2ab992d12a03981399d48a0341ba9921e1709c6dfb9e5e340fe37
-SHA1: 564e46b51cbaca1d3623b4c2ed5f449b922a9ff9
-MD5sum: 028c0fe8e1652b14d1017bb4de29129b
+Size: 1480
+SHA256: 5bfa7847ddb0881596cd434b79986769d93126119e2744bf584b671c56663e0c
+SHA1: 8950814fd55d3abe3fee98e3f08128048fdb2f36
+MD5sum: 119a1bc747dcdfd5d48a5ba05c2f8fad
 Description: A minimal wayland desktop environment
 
 Package: mnz-land-dark-theme
@@ -83,9 +83,9 @@ Priority: optional
 Section: utils
 Filename: pool/main/m/mnz-land-dark-theme/mnz-land-dark-theme_1.0.9_amd64.deb
 Size: 14030364
-SHA256: 35ff9adad937182a90cd269df1291cdaaa29942c200aa45d11cce7a72d43036a
-SHA1: 8bd3e8be6896a7cbe8fbdc50e5af0cbac28e9a3f
-MD5sum: a12f37f6d349a1789e5c51c94bdaa2de
+SHA256: 76d60862c8f57508f38ec5e5da5b10b4eff1b8427c52e0a9d1d34a84021a4cbd
+SHA1: 97e64f92aa93913cd660fedc9d4ed22ae28409c0
+MD5sum: 6627bf81a168e02174999195f96871da
 Description: Dark Default Themeing for mnz-land
 
 Package: nmrs-gui
@@ -104,8 +104,8 @@ Priority: optional
 Section: utils
 Filename: pool/main/n/nmrs-gui/nmrs-gui_1.6.0_amd64.deb
 Size: 1070944
-SHA256: 861c2b9b2a2f02ef00ba27ff44dc9c8da50672ddfa7b95ad123d67622197d800
-SHA1: 4d2f27a9e55f53ca52c68cfab90395a6fe29531a
-MD5sum: 61df4e666759fa08cf0b68735a4010e9
+SHA256: 887e1eedaa2be5b78da890deeb4b435274155f3b287e0fd235115e559bc20092
+SHA1: 7e304b503d192a687d1a5333be1f992de4935712
+MD5sum: 6184aaf12b4c8093d20158cd40c7d33f
 Description: A GTK4 GUI for managing NetworkManager connections on Linux. Built with Rust and libadwaita.
 

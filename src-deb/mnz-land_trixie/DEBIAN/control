@@ -1,5 +1,5 @@
 Package: mnz-land
-Version: 1.0.22
+Version: 1.0.23
 Priority: optional
 Architecture: amd64
 Depends: rofi,
@@ -42,7 +42,7 @@ Depends: rofi,
  wl-clipboard,
  gnome-keyring,
  ufw
-Recommends: firefox-esr
+Recommends: firefox-esr, code
 Section: utils
 Maintainer: Kale Suarez <jeremiahsuarez06@gmail.com>
 Description: A minimal wayland desktop environment
