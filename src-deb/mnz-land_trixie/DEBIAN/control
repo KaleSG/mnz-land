@@ -1,11 +1,13 @@
 Package: mnz-land
-Version: 1.0.24
+Version: 1.0.25
 Priority: optional
 Architecture: amd64
 Depends: rofi,
  waybar,
  labwc,
  lxpolkit,
+ swayidle,
+ gtklock,
  wlogout,
  pkexec,
  waybar,
