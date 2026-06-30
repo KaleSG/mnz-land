@@ -1,5 +1,5 @@
 Package: kale-pkg
-Version: 1.0.10
+Version: 1.0.11
 Section: utils
 Maintainer: Kale Suarez <jeremiahsuarez06@gmail.com>
 Description: Kale's personal software, feel free to use if you want.
@@ -8,6 +8,7 @@ Architecture: amd64
 Depends: flatpak,
     gimp,
     inkscape,
+    reprepro,
     libreoffice-gtk3,
     libreoffice-writer,
     libreoffice-calc,
