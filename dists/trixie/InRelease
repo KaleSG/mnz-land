@@ -1,0 +1,38 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Origin: KaleSG
+Label: mnz-land
+Codename: trixie
+Date: Tue, 30 Jun 2026 06:09:07 UTC
+Architectures: amd64
+Components: main
+Description: my private repo for mnz-land
+MD5Sum:
+ 8b94f7d8bd61d6bcce3a2d208a03a0bb 2637 main/binary-amd64/Packages
+ 706a706588f22320cfcb9765cbc0c740 1246 main/binary-amd64/Packages.gz
+ c4b658877f8c0bf2a52481a264357617 109 main/binary-amd64/Release
+SHA1:
+ fcdd464e407f0b72d58001917a649636b038cb62 2637 main/binary-amd64/Packages
+ 6e13899dc39198a232a9ae6a3e767b473abc080f 1246 main/binary-amd64/Packages.gz
+ c739a9ac4d608a41ee3f992fcc1c61f389ddb89f 109 main/binary-amd64/Release
+SHA256:
+ 39a6e7e070ac8657035c380619f5a6aac57612849c90a73641d1f94286460584 2637 main/binary-amd64/Packages
+ 405a82978816170b771e49d229472d29e9775cbab5e47a6bedc7ea402744eed6 1246 main/binary-amd64/Packages.gz
+ 2f7caae30b4b1140d9d2985899af6d8667beac360c7ff753ca6805309bcf7fa9 109 main/binary-amd64/Release
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEEEM/4IsfVZiH7pmMIf7AedMdSPUMFAmpDXYMACgkQf7AedMdS
+PUNG+g//fhNpRZkINK2csBYiRMER8L/B2t4N9hYSttAv3BqHy7962atLDMjkN5xl
+EJCJHJqXx6yJEcM5xhXBUrmbE2Jl/DXVog4uYBgYIED4ahcnfPF0cgD5oZAdeYSb
+ic3iNWeFetVb8F6G9DmskN0mmh95i/f0k1j/D28In15yRz+5k6h9gFSozaF02vZk
+A0P5O7ha9qemxd0OXJ/YI1V+qoYmwKmW8SBUosyd9M8g+TgPqbu6wQvdGg6t3Z8B
+3d/Gg+Qdu1MS0YEPlP8SPYdT3YsEjKCJNXqiYrjzrI5j5pTxpYyEBmdAGVPYFmRC
+CaBmV0jZVKjhEud/+rKGPYP7wBBcX/cHZxPV8VvbsRr6Veix/XXvBhYKiSrHqrb4
+D1gNWMI6yUM30W98aq1WaGJew9sSi09s9z6M1Gtrw5qso5rWky1c0Atbgk4jNCft
+ritGg78+9wZ9eCik33lOWVaMnMw00Hr6NwIDUbIEf+GfuDp+kZnImrcZJTKecpL1
+dgAizW5OPQSTF/XobLoNmNWrhR3WRfiEvw/bHy9ETZD/u4FDTX+4VRMf0H+mj3Pr
+rP7Kuh7imK7RnMmU20G+CpT/76fLjw/+4HNcjEJYGSU/5SrW/gObMhaIlkLJXvhN
+G7SzZ16Rm/e2fBWR5S+qBhPX0LP7Xgmaq4y9x4ibET0iL3b4iFs=
+=wbXS
+-----END PGP SIGNATURE-----
