@@ -1,11 +1,12 @@
 Package: mnz-land
-Version: 1.0.19
+Version: 1.0.20
 Priority: optional
 Architecture: amd64
 Depends: rofi,
  waybar,
  mate-polkit,
  labwc,
+ lxpolkit
  waybar,
  nwg-look,
  swaybg,
