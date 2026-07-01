@@ -2,6 +2,7 @@
 set -e
 
 FLATPAK_APPS="
+    org.zotero.Zotero
     com.discordapp.Discord
     org.kicad.KiCad
     com.slack.Slack
