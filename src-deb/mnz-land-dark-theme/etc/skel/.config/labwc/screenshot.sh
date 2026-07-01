@@ -3,7 +3,7 @@
 mkdir -p ~/screenshots
 
 # Generate filename
-FILE=~/screenshots/$(date +%Y-%m-%d_%H-%M-%S).png
+FILE=~/Screenshots/$(date +%Y-%m-%d_%H-%M-%S).png
 
 # Capture screen area
 if grim -g "$(slurp)" "$FILE"; then
