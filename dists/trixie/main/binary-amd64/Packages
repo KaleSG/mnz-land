@@ -1,13 +1,13 @@
 Package: kale-pkg
-Version: 1.0.12
+Version: 1.0.14
 Maintainer: Kale Suarez <jeremiahsuarez06@gmail.com>
 Priority: optional
 Section: utils
-Filename: pool/main/k/kale-pkg/kale-pkg_1.0.12_amd64.deb
+Filename: pool/main/k/kale-pkg/kale-pkg_1.0.14_amd64.deb
 Size: 2104
-SHA256: 348e3ad5166dffabdebce86c74c1f2823f81b093ba0eba4986644332af0b3b50
-SHA1: 4b5e62bafd91ca19a7cc24dc2bb7a4b78058b4de
-MD5sum: 6900306a40f45c8d39e730428fb4fa4c
+SHA256: 9ecffb102d72338a16e43eb8cee74de5694e33150b18af38dc7f4148ae5b7aae
+SHA1: f55e6a49c88fdbead3f93fa131f149b40298287e
+MD5sum: a0b7181b91a2bee8059464d77d006c7c
 Description: Kale's personal software, feel free to use if you want.
 Architecture: amd64
 Depends: flatpak,
