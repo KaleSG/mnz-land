@@ -1,5 +1,5 @@
 Package: mnz-land
-Version: 1.0.26
+Version: 1.0.27
 Priority: optional
 Architecture: amd64
 Depends: rofi,
@@ -45,7 +45,9 @@ Depends: rofi,
  xdg-utils,
  wl-clipboard,
  gnome-keyring,
- ufw
+ ufw,
+ greetd,
+ gtkgreet
 Recommends: firefox-esr, code
 Section: utils
 Maintainer: Kale Suarez <jeremiahsuarez06@gmail.com>
