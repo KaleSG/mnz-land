@@ -3,6 +3,6 @@ lxpolkit &
 ~/.config/labwc/device-specific.sh
 swayidle -w \
     timeout 300 'gtklock' \
-    timeout 600 'wlopm --off \*' \
+    timeout 360 'wlopm --off \*' \
     resume 'wlopm --on \*' \
     before-sleep 'gtklock' &
