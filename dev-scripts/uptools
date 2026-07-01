@@ -1,0 +1,63 @@
+#!/bin/bash
+
+#update version number
+
+# Exit immediately if a command exits with a non-zero status
+set -e
+
+# 1. Locate the debian/control file relative to workspace
+CONTROL_FILE="$ROOT/src-deb/kale-pkg/DEBIAN/control"
+
+if [ ! -f "$CONTROL_FILE" ]; then
+    echo "Error: '$CONTROL_FILE' not found in the current directory." >&2
+    exit 1
+fi
+
+# 2. Extract the current Version line
+# Supports formats like: Version: 1.2.3 or Version: 1.2.3-1
+CURRENT_LINE=$(grep -E "^Version:" "$CONTROL_FILE" | head -n 1)
+
+if [ -z "$CURRENT_LINE" ]; then
+    echo "Error: No 'Version:' field found in $CONTROL_FILE" >&2
+    exit 1
+fi
+
+# Extract just the raw version string (e.g., 1.2.3)
+CURRENT_VERSION=$(echo "$CURRENT_LINE" | awk '{print $2}')
+
+# 3. Parse and increment the version using a regular expression
+# This regex splits semantic versioning (Major.Minor.Patch)
+if [[ "$CURRENT_VERSION" =~ ^([0-9]+)\.([0-9]+)\.([0-9]+)(.*)$ ]]; then
+    MAJOR="${BASH_REMATCH[1]}"
+    MINOR="${BASH_REMATCH[2]}"
+    PATCH="${BASH_REMATCH[3]}"
+    SUFFIX="${BASH_REMATCH[4]}" # Captures downstream tags like '-1' or 'ubuntu1'
+    
+    # Increment patch version by 1
+    NEW_PATCH=$((PATCH + 1))
+    NEW_VERSION="${MAJOR}.${MINOR}.${NEW_PATCH}${SUFFIX}"
+else
+    echo "Error: Version '$CURRENT_VERSION' does not match semantic format (X.Y.Z)" >&2
+    exit 1
+fi
+
+# 4. Update the control file in place safely using a temporary file
+echo "Incrementing version: $CURRENT_VERSION -> $NEW_VERSION"
+sed -i "s/^Version:.*/Version: $NEW_VERSION/" "$CONTROL_FILE"
+
+echo "Successfully updated $CONTROL_FILE"
+
+
+
+# repackage-kale-pkg.sh
+sudo rm ./src-deb/kale-pkg.deb
+sudo chown -R root:root .
+sudo dpkg --build ./src-deb/kale-pkg/
+sudo chown -R $USER:$USER .
+
+reprepro includedeb trixie ./src-deb/kale-pkg.deb
+reprepro export
+
+git add db dists pool src-deb
+git commit -m "updated personal tools"
+git push

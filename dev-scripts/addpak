@@ -1,0 +1,2 @@
+#!/bin/bash
+sed -i "/FLATPAK_APPS=\"/a \\    $1" $ROOT/src-deb/kale-pkg/DEBIAN/postinst 

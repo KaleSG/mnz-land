@@ -1,0 +1,6 @@
+{
+  "terminal.integrated.env.linux": {
+    "PATH": "${workspaceFolder}/dev-scripts:${env:PATH}",
+    "ROOT": "${workspaceFolder}"
+  }
+}
