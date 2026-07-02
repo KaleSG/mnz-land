@@ -4,10 +4,10 @@ Maintainer: Kale Suarez <jeremiahsuarez06@gmail.com>
 Priority: optional
 Section: utils
 Filename: pool/main/k/kale-pkg/kale-pkg_1.0.17_amd64.deb
-Size: 2108
-SHA256: 4df94c15eb478a1628387910c1e378982c1150ea9fc50bb82e80c98133f86773
-SHA1: 3b55323541750810d6deee2838226d86386a43e3
-MD5sum: 07deaae4504655b6f9e089105bbd640e
+Size: 2116
+SHA256: 122879e7668e68090ff50d536920b0ee2709f86db22ea38712c065a67039615b
+SHA1: 63726d98334ec571c80be88e4f6ffd3b05e5fa44
+MD5sum: 0566caa7f61b655c1acc87f0d986fe1f
 Description: Kale's personal software, feel free to use if you want.
 Architecture: amd64
 Depends: flatpak,
@@ -28,6 +28,7 @@ Depends: rofi,
  waybar,
  labwc,
  lxpolkit,
+ libnotify-bin,
  wlopm,
  swayidle,
  gtklock,
@@ -75,10 +76,10 @@ Maintainer: Kale Suarez <jeremiahsuarez06@gmail.com>
 Priority: optional
 Section: utils
 Filename: pool/main/m/mnz-land/mnz-land_1.0.27_amd64.deb
-Size: 1500
-SHA256: 69b64d05c25989245c6c67bf84a1cf80e4a89997da043f968e89ace35e2d60c7
-SHA1: 86983714f93032735191255efbe13f31ac0cfa16
-MD5sum: a1570acee5b52895585a8764ff893f1b
+Size: 1508
+SHA256: ed6d63079748a05e2618234971e6b61eec2cf04381c33ed42d23d1b5dad7f1a0
+SHA1: add05cd49eb5c5cd83de85f08ee3cc13563111e8
+MD5sum: 30be741a1b940988a0084c81f9f16d04
 Description: A minimal wayland desktop environment
 
 Package: mnz-land-dark-theme
@@ -88,10 +89,10 @@ Maintainer: Kale Suarez <jeremiahsuarez06@gmail.com>
 Priority: optional
 Section: utils
 Filename: pool/main/m/mnz-land-dark-theme/mnz-land-dark-theme_1.0.16_amd64.deb
-Size: 14030212
-SHA256: c4294fbe2e8724ef1e1582bef40c3f502116d686e0a8edc803e283c9e4af2113
-SHA1: fb1f9fcbdaaefc922d61c24d70f29609436212d2
-MD5sum: 159172d67cd36c48f9b4ebbf045728c9
+Size: 14029528
+SHA256: 6f5d65677428341082959830b3b61b80619c8bfd5426722e2ee930b02df258c0
+SHA1: abaf54e323e152c7b7d9c40ccd6deaffc5e4807f
+MD5sum: bcb20847085b37873dda4909890912d6
 Description: Dark Default Themeing for mnz-land
 
 Package: nmrs-gui
@@ -109,9 +110,9 @@ Maintainer: Kale Suarez <jeremiahsuarez06@gmail.com>
 Priority: optional
 Section: utils
 Filename: pool/main/n/nmrs-gui/nmrs-gui_1.6.0_amd64.deb
-Size: 1070944
-SHA256: e5f36815707763d8b82694208b92368478ca0ea3a0d192ab054e5ec0d4a19d96
-SHA1: 1c0ef0dac5c1f20018a5099438817cd7defb0060
-MD5sum: b0e5e43831383a2a62f30b966096b095
+Size: 1071068
+SHA256: 6f7a61a8e85d55ddb9748ac4a72cb5a45cd1caabe0ad41b1606c806600c92877
+SHA1: f4aef7e8a5547935b1ba7dd1ffb7d8d6f5a503f2
+MD5sum: a85ab60d5b7516578b465fef5eabe368
 Description: A GTK4 GUI for managing NetworkManager connections on Linux. Built with Rust and libadwaita.
 

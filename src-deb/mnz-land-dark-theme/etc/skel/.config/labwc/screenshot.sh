@@ -1,6 +1,6 @@
 #!/bin/sh
 # Ensure the directory exists
-mkdir -p ~/screenshots
+mkdir -p ~/Screenshots
 
 # Generate filename
 FILE=~/Screenshots/$(date +%Y-%m-%d_%H-%M-%S).png
